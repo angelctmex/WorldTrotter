@@ -16,6 +16,7 @@ class ConversionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Conversion view controller loaded this view.")
         updateCelsiusLabel()
     }
     

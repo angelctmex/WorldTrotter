@@ -86,7 +86,7 @@
         <!--Map-->
         <scene sceneID="oq0-cc-PeF">
             <objects>
-                <viewController id="xlL-al-8bh" sceneMemberID="viewController">
+                <viewController id="xlL-al-8bh" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fs2-iT-jYB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
