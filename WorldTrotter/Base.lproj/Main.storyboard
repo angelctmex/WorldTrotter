@@ -50,6 +50,7 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Ahg-bz-BqA" firstAttribute="top" secondItem="dPa-9o-OH3" secondAttribute="top" constant="8" id="07T-md-CwZ"/>
                             <constraint firstItem="hGn-iC-Qbr" firstAttribute="top" secondItem="Xh8-5o-ako" secondAttribute="bottom" constant="8" id="0rZ-pj-v5j"/>
@@ -63,12 +64,21 @@
                             <constraint firstItem="hGn-iC-Qbr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kHU-xm-ZvK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dPa-9o-OH3" userLabel="ss"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Bhu-vW-mFR" appends="YES" id="1WT-Jv-eAN"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="celsiusLabel" destination="hGn-iC-Qbr" id="nyv-BC-LNu"/>
+                        <outlet property="textField" destination="Ahg-bz-BqA" id="AdE-iB-ADm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Bhu-vW-mFR">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="3HM-oz-5FO"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="122.54464285714285"/>
         </scene>
