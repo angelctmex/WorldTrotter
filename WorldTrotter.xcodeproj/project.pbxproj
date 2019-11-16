@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C092AA14237F8BD100FAB426 /*  ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C092AA13237F8BD100FAB426 /*  ConversionViewController.swift */; };
+		C092AA182380735200FAB426 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C092AA162380730500FAB426 /* MapKit.framework */; };
 		C097BB84237734D700546208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097BB83237734D700546208 /* AppDelegate.swift */; };
 		C097BB86237734D700546208 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097BB85237734D700546208 /* SceneDelegate.swift */; };
 		C097BB8B237734D700546208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C097BB89237734D700546208 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C092AA13237F8BD100FAB426 /*  ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ConversionViewController.swift"; sourceTree = "<group>"; };
+		C092AA162380730500FAB426 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C097BB80237734D700546208 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C097BB83237734D700546208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C097BB85237734D700546208 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C092AA182380735200FAB426 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C092AA152380730500FAB426 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C092AA162380730500FAB426 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C097BB77237734D700546208 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				C097BB99237734D900546208 /* WorldTrotterTests */,
 				C097BBA4237734D900546208 /* WorldTrotterUITests */,
 				C097BB81237734D700546208 /* Products */,
+				C092AA152380730500FAB426 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
