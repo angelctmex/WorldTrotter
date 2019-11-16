@@ -90,18 +90,7 @@
                     <view key="view" contentMode="scaleToFill" id="fs2-iT-jYB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Bh2-hl-nHG">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Bh2-hl-nHG" firstAttribute="leading" secondItem="1cy-DN-hZH" secondAttribute="leading" id="8eS-IH-ivT"/>
-                            <constraint firstItem="1cy-DN-hZH" firstAttribute="bottom" secondItem="Bh2-hl-nHG" secondAttribute="bottom" id="QUB-oe-rhq"/>
-                            <constraint firstItem="1cy-DN-hZH" firstAttribute="trailing" secondItem="Bh2-hl-nHG" secondAttribute="trailing" id="XDV-bp-DO5"/>
-                            <constraint firstItem="Bh2-hl-nHG" firstAttribute="top" secondItem="1cy-DN-hZH" secondAttribute="top" id="dmc-VZ-mMy"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1cy-DN-hZH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="XO1-iB-O7K"/>
